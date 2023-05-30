@@ -4,7 +4,8 @@ metadata:
   name: my-ingress
 spec:
   rules:
-    - http:
+    - hostname: localhost....
+      http:  
         paths:
           - path: /WeatherForecast
             pathType: Prefix
